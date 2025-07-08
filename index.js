@@ -22,4 +22,4 @@ function generateTriangle(n) {
     
 }
 
-generateTriangle(5).forEach(row => console.log(row.join(' ')));
+generateTriangle("a").forEach(row => console.log(row.join(' ')));
