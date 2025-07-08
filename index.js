@@ -1,4 +1,7 @@
 function generateTriangle(n) {
+    // Generates Pascal's Triangle up to the nth row
+    // n is the number of rows to generate
+    // Returns an array of arrays representing the triangle
     if (n <= 0) return [];
     const triangle = [];
     for (let i = 0; i < n; i++) {
